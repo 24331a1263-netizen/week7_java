@@ -36,7 +36,7 @@ public class MainBook {
     public static void main(String[] args) {
         Author author = new Author("J.K. Rowling", "jkrowling@email.com", 'F');
     
-        Book book = new Book("Harry Potter", author, 29.99, 150);
+        Book book = new Book("reddy", author, 29.9, 18);
 
         System.out.println("Book Name: " + book.getName());
         System.out.println("Price: $" + book.getPrice());
